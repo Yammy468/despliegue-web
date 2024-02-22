@@ -11,6 +11,8 @@ def suma(a: int, b: int) -> int:
     Returns:
         int: El resultado de la operación.
     """
-    return a + b
 
-# Aquí puedes agregar más funciones y código si es necesario
+    if not isinstance(a, int) or not isinstance(b, int):
+        raise TypeError("Ambos argumentos deben ser números enteros")
+        
+    return a + b
