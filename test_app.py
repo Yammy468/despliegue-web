@@ -1,7 +1,7 @@
 """Pruebas para la función suma del módulo app."""
 
 import unittest
-from app import suma
+from app import my_function
 
 class SumaTest(unittest.TestCase):
     """Clase de pruebas para la función suma."""
