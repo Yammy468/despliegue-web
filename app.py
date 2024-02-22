@@ -16,3 +16,5 @@ def suma(a: int, b: int) -> int:
         raise TypeError("Ambos argumentos deben ser números enteros")
 
     return a + b
+
+# Nueva línea agregada
