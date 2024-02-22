@@ -20,5 +20,3 @@ class SumaTest(unittest.TestCase):
         """Prueba la suma de dos valores no enteros."""
         resultado = suma("1", "2")
         self.assertIsNone(resultado, "La función no debe aceptar valores no enteros")
-
-
