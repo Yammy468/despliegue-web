@@ -12,6 +12,9 @@ def suma(a: int, b: int) -> int:
         int: El resultado de la operación.
     """
 
+    if not isinstance(a, int) or not isinstance(b, int):
+        return None
+
     return a + b
 
 # Nueva línea agregada
