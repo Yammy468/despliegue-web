@@ -1,6 +1,6 @@
 """ Docstring del módulo """
 
-def my_function(a: int, b: int) -> int:
+def suma(a: int, b: int) -> int:
     """
     Esta función realiza una operación específica.
 
@@ -11,6 +11,10 @@ def my_function(a: int, b: int) -> int:
     Returns:
         int: El resultado de la operación.
     """
+
+    if not isinstance(a, int) or not isinstance(b, int):
+        return None
+
     return a + b
 
-# Aquí puedes agregar más funciones y código si es necesario
+# Nueva línea agregada
