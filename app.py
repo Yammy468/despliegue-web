@@ -1,6 +1,6 @@
 """ Docstring del módulo """
 
-def my_function(a: int, b: int) -> int:
+def suma(a: int, b: int) -> int:
     """
     Esta función realiza una operación específica.
 

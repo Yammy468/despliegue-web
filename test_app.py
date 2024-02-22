@@ -1,7 +1,7 @@
 """Pruebas para la función suma del módulo app."""
 
 import unittest
-from app import my_function
+from app import suma
 
 class SumaTest(unittest.TestCase):
     """Clase de pruebas para la función suma."""
@@ -21,5 +21,4 @@ class SumaTest(unittest.TestCase):
         resultado = suma("1", "2")
         self.assertIsNone(resultado, "La función no debe aceptar valores no enteros")
 
-if __name__ == "__main__":
-    unittest.main()
+
